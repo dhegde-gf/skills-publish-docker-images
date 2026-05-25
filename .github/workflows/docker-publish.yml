@@ -9,8 +9,8 @@ permissions:
   contents: read
   packages: write
 
-  jobs:
-  build-and-push:
+jobs:
+   build-and-push:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
